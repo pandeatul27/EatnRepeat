@@ -1,0 +1,69 @@
+/* utility classes */
+.h-primary{
+    font-size: 2rem;
+}
+.h-secondary{
+    font-size: 1.3rem;
+}
+p{
+   font-size: 0.9rem;
+}
+/* navigation bar */
+.navigation
+{  
+    flex-direction: column;
+}
+.navigation ul li a{
+    padding: 0px 4px;
+}
+.navigation ul li:first-child a{
+    padding-left: 3px;
+}
+.navigation ul li:last-child a{
+    padding-right: 3px;
+}
+.navigation img{
+    margin-top: 6px;
+}
+.navigation .search{
+    margin-bottom: 6px;
+}
+
+
+/* home */
+#home{
+    height: 40px;
+    padding: 75px 12px;
+}
+/* services */
+#services .services
+{
+flex-direction: column;
+}
+
+/* contact */
+#contact{
+    overflow: hidden;
+}
+#contact::before{
+    height: 396px;
+}
+#contact .feedback
+       {        
+           display: block;
+           height: 200px;
+           width: 300px;
+           margin: auto;        
+       }
+       #contact .feedback #feedback
+       {              
+          width: 383px;  
+       }
+       #contact .feedback #feedback input
+       {                
+          width: 250px;
+       }
+       #contact .feedback #feedback button
+       {        
+         width:200px;
+       }
