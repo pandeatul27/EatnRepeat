@@ -1,15 +1,19 @@
 /* utility classes */
 .h-primary{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 .h-secondary{
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 p{
-   font-size: 0.6rem;
+   font-size: 0.7rem;
+   /* width: 250px; */
 }
-.home p{
-    width: 290px;
+/* #home{
+    height:60px;
+} */
+#home p{
+    width: 250px !important;
 }
 /* navigation bar */
 .navigation
@@ -31,13 +35,11 @@ p{
 .navigation .search{
     margin-bottom: 6px;
 }
-.navigation ul li a{
-    padding: 0px 4.5px;
-}
+
 
 /* home */
 #home{
-    height: 40px;
+    height: 40px !important;
     padding: 75px 12px;
 }
 /* services */
@@ -62,13 +64,14 @@ flex-direction: column;
        }
        #contact .feedback #feedback
        {              
-          width: 383px;  
+          width: 306px;  
        }
        #contact .feedback #feedback input
        {                
-          width: 250px;
+          width: 250px !important;
        }
        #contact .feedback #feedback button
        {        
          width:200px;
        }
+      
