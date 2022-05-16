@@ -1,12 +1,15 @@
 /* utility classes */
 .h-primary{
-    font-size: 2rem;
-}
-.h-secondary{
     font-size: 1.3rem;
 }
+.h-secondary{
+    font-size: 1rem;
+}
 p{
-   font-size: 0.9rem;
+   font-size: 0.6rem;
+}
+.home p{
+    width: 250px;
 }
 /* navigation bar */
 .navigation
