@@ -31,7 +31,9 @@ p{
 .navigation .search{
     margin-bottom: 6px;
 }
-
+.navigation ul li a{
+    padding: 0px 4.5px;
+}
 
 /* home */
 #home{
